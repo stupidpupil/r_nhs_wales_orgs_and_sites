@@ -1,0 +1,10 @@
+Package: NHSWalesOrgsAndSites
+Title: NHS Wales Organisations and Sites
+Version: 0.0.1
+Description: Hello
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: 
+  dplyr,
+  stringr
