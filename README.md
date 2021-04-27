@@ -1,6 +1,8 @@
-# NHS Wales Organisations and Sites
+# NHS Wales Organisations and Sites for R
 
-This is not intended as a replacement for the WRDS, but to provide consistent human-readable names and abbreviations for major secondary care sites and organisations in NHS Wales. It doesn't track site opening and closing and isn't expected to work for all sites with an assigned WRDS site code.
+![R-CMD-check](https://github.com/stupidpupil/r_nhs_wales_orgs_and_sites/actions/workflows/check-release.yaml/badge.svg)
+
+This package is not intended as a replacement for the WRDS, but to provide consistent human-readable names and abbreviations for major secondary care sites and organisations in NHS Wales. It doesn't track site opening and closing and isn't expected to work for all sites with an assigned WRDS site code.
 
 ## Example
 
