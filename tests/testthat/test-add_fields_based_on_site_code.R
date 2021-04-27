@@ -7,6 +7,7 @@ test_that("7A4BV will produce Abbr, FullName and OrgCode as expected", {
   expect_equal(example$SiteAbbr, 'UHW')
   expect_equal(example$SiteFullName, 'University Hospital of Wales')
   expect_equal(example$SiteOrgCode, '7A4')
+  expect_equal(length(names(example)), 4)
 
 })
 
@@ -21,6 +22,20 @@ test_that("7A4BV will produce Abbr, FullName and OrgCode as expected even if it 
   expect_equal(example$SiteAbbr, 'UHW')
   expect_equal(example$SiteFullName, 'University Hospital of Wales')
   expect_equal(example$SiteOrgCode, '7A4')
+  expect_equal(length(names(example)), 4)
+
+})
+
+test_that("7A4BV will produce Name, ShortName and SiteIsBig as expected", {
+
+  example <- tibble(
+    SiteCode = c("7A4BV"),
+  ) %>% add_fields_based_on_site_code(fields = c('SiteName', 'SiteShortName', 'SiteIsBig'))
+
+  expect_equal(example$SiteName, 'UHW')
+  expect_equal(example$SiteShortName, 'UHW')
+  expect_equal(example$SiteIsBig, TRUE)
+  expect_equal(length(names(example)), 4)
 
 })
 
@@ -60,5 +75,15 @@ test_that("7A4FA will produce Abbr, FullName (with a qualifier) and OrgCode as e
 
 })
 
+test_that("7A5ZZ will produce Abbr, FullName and OrgCode as expected", {
+  
+  example <- tibble(
+    SiteCode = c("7A5ZZ")
+  ) %>% add_fields_based_on_site_code(fields = c('SiteAbbr', 'SiteFullName', 'SiteOrgCode'))
 
+  expect_equal(example$SiteAbbr, 'Other')
+  expect_equal(example$SiteFullName, 'Other Site')
+  expect_equal(example$SiteOrgCode, '7A5')
+
+})
 

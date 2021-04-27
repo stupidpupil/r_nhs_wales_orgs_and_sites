@@ -46,7 +46,7 @@ add_fields_based_on_site_code <- function(
         )
   }
 
-  if("SiteOrgCode" %in% fields){ # TODO: Fix make this work for missing sites
+  if("SiteOrgCode" %in% fields){
 
     nhs_wales_sites <- nhs_wales_sites %>% mutate(
       SiteOrgCode = case_when(
@@ -57,8 +57,18 @@ add_fields_based_on_site_code <- function(
   }
   
   s <- nhs_wales_sites %>% select(all_of(c('SiteCode', fields)))
-  
   names(s) <- paste0(prefix, names(s))
+
+  fallback <- s %>% filter(SiteCode == 'XXXXX') %>% mutate(SiteOrgCode = NA_character_)
     
-  in_data %>% select(-any_of(paste0(prefix, fields))) %>% left_join(s, by=paste0(prefix, "SiteCode"))
+  ret <- in_data %>% 
+    select(-any_of(paste0(prefix, fields))) %>% 
+    left_join(s, by=paste0(prefix, "SiteCode")) %>% 
+    replace_na(fallback)
+
+  if("SiteOrgCode" %in% fields){
+    ret <- ret %>% mutate(SiteOrgCode = ifelse(is.na(SiteOrgCode), str_sub(SiteCode, 1, 3), SiteOrgCode))
+  }
+
+  return(ret)
 }
