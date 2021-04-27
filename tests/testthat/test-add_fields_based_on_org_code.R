@@ -24,3 +24,18 @@ test_that("7A4 will produce Abbr, Name and FullName as expected with prefix", {
   expect_equal(length(names(example)), 4)
 
 })
+
+
+
+test_that("UKN will produce Abbr, Name and FullName as expected", {
+
+  example <- tibble(
+    OrgCode = c("UKN")
+  ) %>% add_fields_based_on_org_code(fields = c('OrgAbbr', 'OrgName', 'OrgFullName'))
+
+  expect_equal(example$OrgAbbr, 'Other')
+  expect_equal(example$OrgName, 'Other Organisation')
+  expect_equal(example$OrgFullName, 'Other Organisation')
+  expect_equal(length(names(example)), 4)
+
+})
