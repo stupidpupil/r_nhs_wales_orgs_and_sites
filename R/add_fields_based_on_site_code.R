@@ -11,10 +11,15 @@ add_fields_based_on_org_code <- function(
   fields_from_join <- intersect(fields, simple_fields)
 
   s <- nhs_wales_organisations %>% select(all_of(c('OrgCode', fields)))
+  fallback <- s %>% filter(OrgCode == 'XXX') %>% mutate(SiteOrgCode = NA_character_)
 
   names(s) <- paste0(prefix, names(s))
+  names(fallback) <- paste0(prefix, names(fallback))
 
-  in_data %>% select(-any_of(paste0(prefix, fields))) %>% left_join(s, by=paste0(prefix, "OrgCode"))
+  in_data %>% 
+    select(-any_of(paste0(prefix, fields))) %>% 
+    left_join(s, by=paste0(prefix, "OrgCode")) %>%
+    replace_na(fallback)
 }
 
 
@@ -57,9 +62,10 @@ add_fields_based_on_site_code <- function(
   }
   
   s <- nhs_wales_sites %>% select(all_of(c('SiteCode', fields)))
-  names(s) <- paste0(prefix, names(s))
-
   fallback <- s %>% filter(SiteCode == 'XXXXX') %>% mutate(SiteOrgCode = NA_character_)
+
+  names(s) <- paste0(prefix, names(s))
+  names(fallback) <- paste0(prefix, names(fallback))
     
   ret <- in_data %>% 
     select(-any_of(paste0(prefix, fields))) %>% 
@@ -67,7 +73,11 @@ add_fields_based_on_site_code <- function(
     replace_na(fallback)
 
   if("SiteOrgCode" %in% fields){
-    ret <- ret %>% mutate(SiteOrgCode = ifelse(is.na(SiteOrgCode), str_sub(SiteCode, 1, 3), SiteOrgCode))
+
+    site_org_code_field <- paste0(prefix, 'SiteOrgCode') %>% sym()
+    site_code_field <- paste0(prefix, 'SiteCode') %>% sym()
+
+    ret <- ret %>% mutate(!!site_org_code_field := ifelse(is.na(!!site_org_code_field), str_sub(!!site_code_field, 1, 3), !!site_org_code_field))
   }
 
   return(ret)
