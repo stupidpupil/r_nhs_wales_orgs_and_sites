@@ -3,6 +3,8 @@ add_fields_based_on_org_code <- function(
   fields = c("OrgName")
   ){
 
+  fields <- ifelse(str_detect(fields, "^Org"), fields, paste0('Org', fields))
+
   names(nhs_wales_organisations) <- paste0("Org", names(nhs_wales_organisations))
 
   simple_fields = # Fields that don't need processing to produce

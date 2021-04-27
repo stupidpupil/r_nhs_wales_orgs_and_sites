@@ -11,6 +11,19 @@ test_that("7A4BV will produce Abbr, FullName and OrgCode as expected", {
 
 })
 
+test_that("7A4BV will produce Abbr, FullName and OrgCode as expected even if I omit 'Site' when specifying fields", {
+
+  example <- tibble(
+    SiteCode = c("7A4BV")
+  ) %>% add_fields_based_on_site_code(fields = c('Abbr', 'FullName', 'OrgCode'))
+
+  expect_equal(example$SiteAbbr, 'UHW')
+  expect_equal(example$SiteFullName, 'University Hospital of Wales')
+  expect_equal(example$SiteOrgCode, '7A4')
+  expect_equal(length(names(example)), 4)
+
+})
+
 test_that("7A4BV will produce Abbr, FullName and OrgCode as expected with a prefix", {
 
   example <- tibble(
