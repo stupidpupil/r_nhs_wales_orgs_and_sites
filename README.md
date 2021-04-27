@@ -1,6 +1,6 @@
 # NHS Wales Organisations and Sites
 
-This is not intended as a replacement for the WRDS, but to provide consistent human-readable information for major secondary-care sites and organisations in NHS Wales.
+This is not intended as a replacement for the WRDS, but to provide consistent human-readable names and abbreviations for major secondary care sites and organisations in NHS Wales. It doesn't track site opening and closing and isn't expected to work for all sites with an assigned WRDS site code.
 
 ## Example
 
