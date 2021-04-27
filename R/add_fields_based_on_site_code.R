@@ -13,10 +13,8 @@ add_fields_based_on_org_code <- function(
   s <- nhs_wales_organisations %>% select(all_of(c('OrgCode', fields)))
 
   names(s) <- paste0(prefix, names(s))
-  
-  fields_to_remove = intersect(colnames(in_data), paste0(prefix, fields))
-  
-  in_data %>% select(-all_of(fields_to_remove)) %>% left_join(s, by=paste0(prefix, "OrgCode"))
+
+  in_data %>% select(-any_of(paste0(prefix, fields))) %>% left_join(s, by=paste0(prefix, "OrgCode"))
 }
 
 
@@ -61,8 +59,6 @@ add_fields_based_on_site_code <- function(
   s <- nhs_wales_sites %>% select(all_of(c('SiteCode', fields)))
   
   names(s) <- paste0(prefix, names(s))
-  
-  fields_to_remove = intersect(colnames(in_data), paste0(prefix, fields))
-  
-  in_data %>% select(-all_of(fields_to_remove)) %>% left_join(s, by=paste0(prefix, "SiteCode"))
+    
+  in_data %>% select(-any_of(paste0(prefix, fields))) %>% left_join(s, by=paste0(prefix, "SiteCode"))
 }
