@@ -8,6 +8,9 @@ This package is not intended as a replacement for the WRDS, but to provide consi
 
 ```R
 
+devtools::install_github("stupidpupil/r_nhs_wales_orgs_and_sites")
+library(NHSWalesOrgsAndSites)
+
 an_example_tibble <- tibble(
   AdmissionSiteCode = c("7A4C1")
 )
