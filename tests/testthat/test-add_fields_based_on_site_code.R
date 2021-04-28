@@ -101,6 +101,18 @@ test_that("7A4FA will produce Abbr, FullName (with a qualifier) and OrgCode as e
 
 })
 
+test_that("E9E8P will produce Abbr, Name and OrgCode as expected (and as if it were 7A2AG)", {
+
+  example <- tibble(
+    SiteCode = c("E9E8P")
+  ) %>% add_fields_based_on_site_code(fields = c('SiteAbbr', 'SiteName', 'SiteOrgCode'))
+
+  expect_equal(example$SiteAbbr, 'GGH')
+  expect_equal(example$SiteName, 'Glangwili')
+  expect_equal(example$SiteOrgCode, '7A2')
+
+})
+
 test_that("7A5ZZ will produce Abbr, FullName and OrgCode as expected", {
   
   example <- tibble(
