@@ -52,9 +52,9 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,FullNameWelsh,OrgCodeOverride
 7A6F7,St Cadoc's,FALSE,TRUE,St Cadoc's,StC,St Cadoc's Hospital,Ysbyty Sant Cadog,,NP18 3XQ
 7A6AS,County,FALSE,FALSE,County,Cnty,County Hospital,Ysbyty'r Sir,,NP4  5YA
 7A6BJ,Chepstow,FALSE,FALSE,Chepstow,Chep,Chepstow Community Hospital,Ysbyty Cymunedol Cas-gwent,,NP16 5YX
-7A7BN,Llandrindod Wells,FALSE,FALSE,Llandrindod,LWWMH,Llandrindod Wells Ward Memorial Hospital,Ysbyty Coffa Rhyfel Llandrindod Wells,,LD1  5HF
+7A7BN,Llandrindod Wells,FALSE,FALSE,Llandrindod,LWWMH,Llandrindod Wells War Memorial Hospital,Ysbyty Coffa Rhyfel Llandrindod Wells,,LD1  5HF
 7A7BS,Victoria,FALSE,FALSE,Victoria,VicMH,Victoria Memorial Hospital,Ysbyty Coffa Victoria,,SY21 7DU
-7A7BT,Breconshire,FALSE,FALSE,Brecon,BrWMH,Breconshire Ward Memorial Hospital,Ysbyty Coffa Rhyfel Brycheiniog,,LD3  7NS
+7A7BT,Breconshire,FALSE,FALSE,Brecon,BrWMH,Breconshire War Memorial Hospital,Ysbyty Coffa Rhyfel Brycheiniog,,LD3  7NS
 7A7EJ,Ystradgynlais,FALSE,FALSE,Ystradgynlais,YgCH,Ystradgynlais Community Hospital,Ysbyty Cymunedol Ystradgynlais,,SA9  1AE
 RQFH5,Velindre,FALSE,FALSE,Velindre,VCC,Velindre Cancer Centre,Canolfan Ganser Felindre,,CF14 2TL
 XXXXX,Other Site,FALSE,FALSE,Other,Other,Other Site,Safle Arall,,
