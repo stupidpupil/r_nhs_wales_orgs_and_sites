@@ -1,2 +1,2 @@
-nhs_wales_sites <- readxl::read_xlsx("data-raw/sites_and_orgs.xlsx", sheet="Sites")
+nhs_wales_sites <- readr::read_csv("data-raw/nhs_wales_sites.csv")
 usethis::use_data(nhs_wales_sites, overwrite = TRUE)

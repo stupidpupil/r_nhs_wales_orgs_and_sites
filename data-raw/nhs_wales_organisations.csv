@@ -1,0 +1,11 @@
+Code,Name,ShortName,Abbr,FullName,IsHealthBoard
+7A1,Betsi Cadwaladr,Betsi Cadwal.,BC,Betsi Cadwaladr University Health Board,TRUE
+7A2,Hywel Dda,Hywel Dda,HD,Hywel Dda University Health Board,TRUE
+7A3,Swansea Bay,Swansea Bay,SB,Swansea Bay University Health Board,TRUE
+7A4,Cardiff & Vale,Cardiff & Vale,CV,Cardiff & Vale University Health Board,TRUE
+7A5,Cwm Taf Morgannwg,Cwm Taf Morg.,CTM,Cwm Taf Morgannwg University Health Board,TRUE
+7A6,Aneurin Bevan,Aneurin Bevan,AB,Aneurin Bevan University Health Board,TRUE
+7A7,Powys,Powys,Pt,Powys teaching Health Board,TRUE
+RQF,Velindre,Velindre,Vel,Velindre NHS Trust,FALSE
+RYT,Public Health Wales,Public Health,PHW,Public Health Wales NHS Trust,FALSE
+XXX,Other Organisation,Other Org,Other,Other Organisation,FALSE

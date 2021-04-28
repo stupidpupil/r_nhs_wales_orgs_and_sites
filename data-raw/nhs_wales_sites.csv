@@ -1,0 +1,60 @@
+Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,OrgCodeOverride,Postcode
+7A1A1,Glan Clwyd,TRUE,FALSE,Glan Clwyd,YGC,Ysbyty Glan Clwyd,,LL18 5UJ
+7A1A4,Wrexham Maelor,TRUE,FALSE,Wrexham,WMH,Wrexham Maelor Hospital,,LL13 7TD
+7A1AU,Gwynedd,TRUE,FALSE,Gwynedd,YG,Ysbyty Gwynedd,,LL57 2PW
+7A1AZ,Ffestiniog,FALSE,FALSE,Ffestiniog,FFMH,Ffestiniog Memorial Hospital,,LL41 3DW
+7A1A8,Colwyn Bay,FALSE,FALSE,Colwyn Bay,CBCH,Colwyn Bay Community Hospital,,LL29 8AY
+7A1A9,Denbigh,FALSE,FALSE,Denbigh,DeCH,Denbigh Community Hospital,,LL16 3ES
+7A1AF,Ruthin,FALSE,FALSE,Ruthin,RuCH,Ruthin Community Hospital,,LL15 1PS
+7A1AV,Llandudno,FALSE,FALSE,Llandudno,LLGH,Llandudno General Hospital,,LL30 1LB
+7A1AX,Bryn Beryl,FALSE,FALSE,Bryn Beryl,BrBH,Bryn Beryl Hospital,,LL53 6TT
+7A1AB,Holywell,FALSE,FALSE,Holywell,HlCH,Holywell Community Hospital,,CH8  7TZ
+7A1AD,Mold,FALSE,FALSE,Mold,Mold,Mold Community Hospital,,CH7  1RH
+7A1DC,Penrhos Stanley,FALSE,FALSE,Penrhos,YPS,Ysbyty Penrhos Stanley,,LL65 2QA
+7A1CA,Alltwen,FALSE,FALSE,Alltwen,YAll,Ysbyty Alltwen,,LL49 9RN
+7A1CC,Deeside,FALSE,FALSE,Deeside,Dee,Deeside Community Hospital,,CH5  1XS
+7A1A7,Chirk,FALSE,FALSE,Chirk,Chrk,Chirk Community Hospital,,LL14 5LN
+7A1GE,Bryn y Neuadd,FALSE,TRUE,Bryn y Neuadd,BrYNd,Bryn y Neuadd Hospital,,LL33 0HH
+7A2AG,Glangwili,TRUE,FALSE,Glangwili,GGH,Glangwili General Hospital,,SA31 2AF
+7A2AJ,Bronglais,TRUE,FALSE,Bronglais,BGH,Bronglais General Hospital,,SY23 1ER
+7A2BL,Withybush,TRUE,FALSE,Withybush,WGH,Withybush General Hospital,,SA61 2PZ
+7A2AL,Prince Philip,TRUE,FALSE,Prince Philip,PPH,Prince Philip Hospital,,SA14 8QF
+7A2AH,Llandovery,FALSE,FALSE,Llandovery,LLH,Llandovery Hospital,,SA20 0LA
+7A2E1,Amman Valley,FALSE,FALSE,Amman Val.,AmVl,Amman Valley Hospital,,SA18 2BQ
+7A2EF,South Pembroke,FALSE,FALSE,South Pembs.,SPH,South Pembrokeshire Hospital,,SA72 6SY
+7A2JA,Tenby Cottage,FALSE,FALSE,Tenby,TeCH,Tenby Cottage Hospital,,SA70 8AG
+7A2D8,Tregaron,FALSE,FALSE,Tregaron,TrCH,Tregaron Community Hospital,,SY25 6JP
+7A3C4,Singleton,TRUE,FALSE,Singleton,Sglt,Singleton Hospital,,SA2  8QA
+7A3C7,Morriston,TRUE,FALSE,Morriston,Mor,Morriston Hospital,,SA6  6NL
+7A3CJ,Neath Port Talbot,TRUE,FALSE,NPT,NPT,Neath Port Talbot Hospital,,SA12 7BX
+7A3FL,Tonna,FALSE,TRUE,Tonna,Tnna,Tonna Hospital,,SA11 3LX
+7A3EM,Gorseinon,FALSE,FALSE,Gorseinon,Gorse,Gorseinon Hospital,,SA4 4UU
+7A3FJ,Cefn Coed,FALSE,TRUE,Cefn Coed,CfnCd,Cefn Coed Hospital,,SA2  0GH
+7A3FA,Glanrhyd,FALSE,TRUE,Glanrhyd,Glrhd,Glanrhyd Hospital,7A5,CF31 4LN
+7A4BV,UHW,TRUE,FALSE,UHW,UHW,University Hospital of Wales,,CF14 4XW
+7A4C1,Llandough,TRUE,FALSE,Llandough,UHL,University Hospital Llandough,,CF64 2XX
+7A4CH,Barry,FALSE,FALSE,Barry,Brry,Barry Hospital,,CF62 8YH
+7A4BX,Rookwood,FALSE,FALSE,Rookwood,Rkwd,Rookwood Hospital,,CF5  2YN
+7A4FE,St David's,FALSE,FALSE,St David's,StD,St David's Community Hospital,,CF11 9XB
+7A4FF,Whitchurch,FALSE,TRUE,Whitchurch,Whit,Whitchurch Hospital,,CF14 7XB
+7A5B1,Royal Glamorgan,TRUE,FALSE,Royal Glam,Glam,Royal Glamorgan Hospital,,CF72 8XR
+7A5B3,Prince Charles,TRUE,FALSE,PCH,PCH,Prince Charles Hospital,,CF47 9DT
+7A3B7,Princess of Wales,TRUE,FALSE,PoW,PoW,Princess of Wales Hospital,7A5,CF31 1RQ
+7A5HA,Cwm Cynon,FALSE,FALSE,Cwm Cynon,YCC,Ysbyty Cwm Cynon,,CF45 4BZ
+7A5CA,Cwm Rhondda,FALSE,FALSE,Cwm Rhondda,YCR,Ysbyty Cwm Rhondda,,CF40 2LU
+7A6AM,Nevill Hall,TRUE,FALSE,Nevill Hall,NHH,Nevill Hall Hospital,,NP7  7EG
+7A6AR,Royal Gwent,TRUE,FALSE,Royal Gwent,Gwent,Royal Gwent Hospital,,NP20 2UB
+7A6AU,Aneurin Bevan,FALSE,FALSE,Aneurin Bevan,YAB,Ysbyty Aneurin Bevan,,NP23 8XE
+7A6AV,Ystrad Fawr,TRUE,FALSE,Ystrad Fawr,YYF,Ysbyty Ystrad Fawr,,CF82 7GP
+7A6G9,Grange,FALSE,FALSE,Grange,GUH,Grange University Hospital,,NP44 8YN
+7A6G5,Llanfrechfa Grange,FALSE,TRUE,Llanfrechfa Grange,LGH,Llanfrechfa Grange Hospital,,NP44 8YN
+7A6ML,St Woolos,FALSE,FALSE,St Woolos,StW,St Woolos Hospital,,NP20 4SZ
+7A6F7,St Cadoc's,FALSE,TRUE,St Cadoc's,StC,St Cadoc's Hospital,,NP18 3XQ
+7A6AS,County,FALSE,FALSE,County,Cnty,County Hospital,,NP4  5YA
+7A6BJ,Chepstow,FALSE,FALSE,Chepstow,Chep,Chepstow Community Hospital,,NP16 5YX
+7A7BN,Llandrindod Wells,FALSE,FALSE,Llandrindod,LWWMH,Llandrindod Wells Ward Memorial Hospital,,LD1  5HF
+7A7BS,Victoria,FALSE,FALSE,Victoria,VWMH,Victoria War Memorial Hospital,,SY21 7DU
+7A7BT,Breconshire,FALSE,FALSE,Brecon,BWMH,Breconshire Ward Memorial Hospital,,LD3  7NS
+7A7EJ,Ystradgynlais,FALSE,FALSE,Ystradgynlais,YgCH,Ystradgynlais Community Hospital,,SA9  1AE
+RQFH5,Velindre,FALSE,FALSE,Velindre,VCC,Velindre Cancer Centre,,CF14 2TL
+XXXXX,Other Site,FALSE,FALSE,Other,Other,Other Site,,
