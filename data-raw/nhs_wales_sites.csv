@@ -42,7 +42,7 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,FullNameWelsh,OrgCodeOverride
 7A3B7,Princess of Wales,TRUE,FALSE,PoW,PoW,Princess of Wales Hospital,Ysbyty Tywysoges Cymru,7A5,CF31 1RQ
 7A5HA,Cwm Cynon,FALSE,FALSE,Cwm Cynon,YCC,Ysbyty Cwm Cynon,,,CF45 4BZ
 7A5CA,Cwm Rhondda,FALSE,FALSE,Cwm Rhondda,YCR,Ysbyty Cwm Rhondda,,,CF40 2LU
-7A6AM,Nevill Hall,TRUE,FALSE,Nevill Hall,NHH,Nevill Hall Hospital,Ysbyty Nevill Hall,,NP7  7EG
+7A6AM,Nevill Hall,TRUE,FALSE,Nevill Hall,NHH,Nevill Hall Hospital,Ysbyty Neuadd Nevill,,NP7  7EG
 7A6AR,Royal Gwent,TRUE,FALSE,Royal Gwent,Gwent,Royal Gwent Hospital,Ysbyty Brenhinol Gwent,,NP20 2UB
 7A6AU,Aneurin Bevan,FALSE,FALSE,Aneurin Bevan,YAB,Ysbyty Aneurin Bevan,,,NP23 8XE
 7A6AV,Ystrad Fawr,TRUE,FALSE,Ystrad Fawr,YYF,Ysbyty Ystrad Fawr,,,CF82 7GP
