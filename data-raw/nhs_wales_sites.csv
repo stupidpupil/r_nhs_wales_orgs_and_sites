@@ -53,7 +53,7 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,OrgCodeOverride,Postcode
 7A6AS,County,FALSE,FALSE,County,Cnty,County Hospital,,NP4  5YA
 7A6BJ,Chepstow,FALSE,FALSE,Chepstow,Chep,Chepstow Community Hospital,,NP16 5YX
 7A7BN,Llandrindod Wells,FALSE,FALSE,Llandrindod,LWWMH,Llandrindod Wells Ward Memorial Hospital,,LD1  5HF
-7A7BS,Victoria,FALSE,FALSE,Victoria,VWMH,Victoria War Memorial Hospital,,SY21 7DU
+7A7BS,Victoria,FALSE,FALSE,Victoria,ViMH,Victoria Memorial Hospital,,SY21 7DU
 7A7BT,Breconshire,FALSE,FALSE,Brecon,BWMH,Breconshire War Memorial Hospital,,LD3  7NS
 7A7EJ,Ystradgynlais,FALSE,FALSE,Ystradgynlais,YgCH,Ystradgynlais Community Hospital,,SA9  1AE
 RQFH5,Velindre,FALSE,FALSE,Velindre,VCC,Velindre Cancer Centre,,CF14 2TL
