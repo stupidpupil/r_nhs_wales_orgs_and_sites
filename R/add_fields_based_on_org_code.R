@@ -8,7 +8,7 @@ add_fields_based_on_org_code <- function(
   names(nhs_wales_organisations) <- paste0("Org", names(nhs_wales_organisations))
 
   simple_fields = # Fields that don't need processing to produce
-    c("OrgShortName", "OrgName", "OrgFullName", "OrgAbbr")
+    c("OrgShortName", "OrgName", "OrgFullName", "OrgAbbr", "OrgFullNameWelsh")
 
   fields_from_join <- intersect(fields, simple_fields)
 
