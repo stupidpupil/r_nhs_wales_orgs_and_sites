@@ -47,7 +47,7 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,OrgCodeOverride,Postcode
 7A6AU,Aneurin Bevan,FALSE,FALSE,Aneurin Bevan,YAB,Ysbyty Aneurin Bevan,,NP23 8XE
 7A6AV,Ystrad Fawr,TRUE,FALSE,Ystrad Fawr,YYF,Ysbyty Ystrad Fawr,,CF82 7GP
 7A6G9,Grange,FALSE,FALSE,Grange,GUH,Grange University Hospital,,NP44 8YN
-7A6G5,Llanfrechfa Grange,FALSE,TRUE,Llanfrechfa Grange,LGH,Llanfrechfa Grange Hospital,,NP44 8YN
+7A6G5,Llanfrechfa Grange,FALSE,TRUE,Llanfrechfa,LGH,Llanfrechfa Grange Hospital,,NP44 8YN
 7A6ML,St Woolos,FALSE,FALSE,St Woolos,StW,St Woolos Hospital,,NP20 4SZ
 7A6F7,St Cadoc's,FALSE,TRUE,St Cadoc's,StC,St Cadoc's Hospital,,NP18 3XQ
 7A6AS,County,FALSE,FALSE,County,Cnty,County Hospital,,NP4  5YA
