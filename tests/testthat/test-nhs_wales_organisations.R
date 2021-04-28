@@ -7,11 +7,18 @@ test_that("No organisation has a ShortName or Name that mentions 'Health Board'"
   expect_equal(nhs_wales_organisations %>% filter(Name %>% str_detect('\\bHealth Board\\b')) %>% nrow(), 0)
 })
 
-test_that("No organisation has a FullName that doesn't mention either 'Health Board' or 'Trust", {
+test_that("All organisations have a FullName that mentions either 'Health Board' or 'Trust'", {
   orgs_other_than_unknown <- nhs_wales_organisations %>% filter(Code != 'XXX')
   expect_true(orgs_other_than_unknown %>% pull(FullName) %>% 
     str_detect('\\b(Health Board|Trust)\\b') %>% all())
 })
+
+test_that("All organisations have a FullNameWelsh that mentions either 'Bwrdd Iechyd' or 'Ymddiriedolaeth'", {
+  orgs_other_than_unknown <- nhs_wales_organisations %>% filter(Code != 'XXX')
+  expect_true(orgs_other_than_unknown %>% pull(FullNameWelsh) %>% 
+    str_detect('\\b(Bwrdd Iechyd|Ymddiriedolaeth)\\b') %>% all())
+})
+
 
 
 test_that("All organisations have a unique Code, Abbr, Name, ShortName, Name, FullName and FullNameWelsh", {
