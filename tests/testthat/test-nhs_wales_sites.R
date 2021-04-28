@@ -34,7 +34,7 @@ test_that("The lengths of FullName, Name, ShortName and Abbr are ordered as you'
 })
 
 
-test_that("All sites have a unique Code, Abbr, Name, ShortName, Name and FullName", {
+test_that("All sites have a unique Code, Abbr, Name, ShortName, Name, FullName and FullNameWelsh", {
   count_of_sites <- nhs_wales_sites %>% nrow()
 
   expect_equal(nhs_wales_sites %>% pull(Code) %>% n_distinct(), count_of_sites)
