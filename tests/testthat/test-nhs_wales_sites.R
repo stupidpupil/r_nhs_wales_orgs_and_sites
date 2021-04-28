@@ -39,6 +39,7 @@ test_that("All sites have a unique Code, Abbr, Name, ShortName, Name, FullName a
 
   expect_equal(nhs_wales_sites %>% pull(Code) %>% n_distinct(), count_of_sites)
   expect_equal(nhs_wales_sites %>% pull(Abbr) %>% n_distinct(), count_of_sites)
+  expect_equal(nhs_wales_sites %>% pull(Abbr) %>% str_to_lower() %>% n_distinct(), count_of_sites)
   expect_equal(nhs_wales_sites %>% pull(Name) %>% n_distinct(), count_of_sites)
   expect_equal(nhs_wales_sites %>% pull(ShortName) %>% n_distinct(), count_of_sites)
   expect_equal(nhs_wales_sites %>% pull(Name) %>% n_distinct(), count_of_sites)
