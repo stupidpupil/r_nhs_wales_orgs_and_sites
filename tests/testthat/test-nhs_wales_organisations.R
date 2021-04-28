@@ -14,7 +14,7 @@ test_that("No organisation has a FullName that doesn't mention either 'Health Bo
 })
 
 
-test_that("All organisations have a unique Code, Abbr, Name, ShortName, Name and FullName", {
+test_that("All organisations have a unique Code, Abbr, Name, ShortName, Name, FullName and FullNameWelsh", {
   count_of_orgs <- nhs_wales_organisations %>% nrow()
 
   expect_equal(nhs_wales_organisations %>% pull(Code) %>% n_distinct(), count_of_orgs)
@@ -23,4 +23,5 @@ test_that("All organisations have a unique Code, Abbr, Name, ShortName, Name and
   expect_equal(nhs_wales_organisations %>% pull(ShortName) %>% n_distinct(), count_of_orgs)
   expect_equal(nhs_wales_organisations %>% pull(Name) %>% n_distinct(), count_of_orgs)
   expect_equal(nhs_wales_organisations %>% pull(FullName) %>% n_distinct(), count_of_orgs)
+  expect_equal(nhs_wales_organisations %>% pull(FullNameWelsh) %>% n_distinct(), count_of_orgs)
 })
