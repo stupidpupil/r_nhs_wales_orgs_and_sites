@@ -2,18 +2,18 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,FullNameWelsh,OrgCodeOverride
 7A1A1,Glan Clwyd,TRUE,FALSE,Glan Clwyd,YGC,Ysbyty Glan Clwyd,,,LL18 5UJ
 7A1A4,Wrexham Maelor,TRUE,FALSE,Wrexham,WMH,Wrexham Maelor Hospital,Ysbyty Maelor Wrecsam,,LL13 7TD
 7A1AU,Gwynedd,TRUE,FALSE,Gwynedd,YG,Ysbyty Gwynedd,,,LL57 2PW
-7A1AZ,Ffestiniog,FALSE,FALSE,Ffestiniog,FFMH,Ffestiniog Memorial Hospital,Ysbyty Coffa Ffestiniog,,LL41 3DW
-7A1A8,Colwyn Bay,FALSE,FALSE,Colwyn Bay,CBCH,Colwyn Bay Community Hospital,Ysbyty Cymuned Bae Colwyn,,LL29 8AY
-7A1A9,Denbigh,FALSE,FALSE,Denbigh,DeCH,Denbigh Community Hospital,Ysbyty Cymunedol Dinbych,,LL16 3ES
-7A1AF,Ruthin,FALSE,FALSE,Ruthin,RuCH,Ruthin Community Hospital,Ysbyty Cymunedol Rhuthun,,LL15 1PS
+7A1AZ,Ffestiniog,FALSE,FALSE,Ffestiniog,Ffest,Ffestiniog Memorial Hospital,Ysbyty Coffa Ffestiniog,,LL41 3DW
+7A1A8,Colwyn Bay,FALSE,FALSE,Colwyn Bay,Colw,Colwyn Bay Community Hospital,Ysbyty Cymuned Bae Colwyn,,LL29 8AY
+7A1A9,Denbigh,FALSE,FALSE,Denbigh,Denb,Denbigh Community Hospital,Ysbyty Cymunedol Dinbych,,LL16 3ES
+7A1AF,Ruthin,FALSE,FALSE,Ruthin,Ruthn,Ruthin Community Hospital,Ysbyty Cymunedol Rhuthun,,LL15 1PS
 7A1AV,Llandudno,FALSE,FALSE,Llandudno,LLGH,Llandudno General Hospital,Ysbyty Cyffredinol Llandudno,,LL30 1LB
-7A1AX,Bryn Beryl,FALSE,FALSE,Bryn Beryl,BrBH,Bryn Beryl Hospital,Ysbyty Bryn Beryl,,LL53 6TT
-7A1AB,Holywell,FALSE,FALSE,Holywell,HlCH,Holywell Community Hospital,Ysbyty Cymuned Treffynnon,,CH8  7TZ
+7A1AX,Bryn Beryl,FALSE,FALSE,Bryn Beryl,BrBrl,Bryn Beryl Hospital,Ysbyty Bryn Beryl,,LL53 6TT
+7A1AB,Holywell,FALSE,FALSE,Holywell,HlyWl,Holywell Community Hospital,Ysbyty Cymuned Treffynnon,,CH8  7TZ
 7A1AD,Mold,FALSE,FALSE,Mold,Mold,Mold Community Hospital,Ysbyty Cymuned yr Wyddgrug,,CH7  1RH
 7A1DC,Penrhos Stanley,FALSE,FALSE,Penrhos,YPS,Ysbyty Penrhos Stanley,,,LL65 2QA
-7A1CA,Alltwen,FALSE,FALSE,Alltwen,YAll,Ysbyty Alltwen,,,LL49 9RN
+7A1CA,Alltwen,FALSE,FALSE,Alltwen,YAllt,Ysbyty Alltwen,,,LL49 9RN
 7A1CC,Deeside,FALSE,FALSE,Deeside,Dee,Deeside Community Hospital,Ysbyty Cymuned Glannau Dyfrdwy,,CH5  1XS
-7A1A7,Chirk,FALSE,FALSE,Chirk,Chrk,Chirk Community Hospital,Ysbyty Cymuned Y Waun,,LL14 5LN
+7A1A7,Chirk,FALSE,FALSE,Chirk,Chirk,Chirk Community Hospital,Ysbyty Cymuned Y Waun,,LL14 5LN
 7A1GE,Bryn y Neuadd,FALSE,TRUE,Bryn y Neuadd,BrYNd,Bryn y Neuadd Hospital,Ysbyty Bryn y Neuadd,,LL33 0HH
 7A2AG,Glangwili,TRUE,FALSE,Glangwili,GGH,Glangwili General Hospital,Ysbyty Cyffredinol Glangwili,,SA31 2AF
 7A2AJ,Bronglais,TRUE,FALSE,Bronglais,BGH,Bronglais General Hospital,Ysbyty Bronglais,,SY23 1ER
@@ -22,18 +22,18 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,FullNameWelsh,OrgCodeOverride
 7A2AH,Llandovery,FALSE,FALSE,Llandovery,LLH,Llandovery Hospital,Ysbyty Llanymddyfri,,SA20 0LA
 7A2E1,Amman Valley,FALSE,FALSE,Amman Val.,AmVl,Amman Valley Hospital,Ysbyty Dyffryn Aman,,SA18 2BQ
 7A2EF,South Pembroke,FALSE,FALSE,South Pembs.,SPH,South Pembrokeshire Hospital,Ysbyty De Sir Benfro,,SA72 6SY
-7A2JA,Tenby Cottage,FALSE,FALSE,Tenby,TeCH,Tenby Cottage Hospital,Ysbyty Bwthyn Dinbych y Pysgod,,SA70 8AG
+7A2JA,Tenby Cottage,FALSE,FALSE,Tenby,Tenb,Tenby Cottage Hospital,Ysbyty Bwthyn Dinbych y Pysgod,,SA70 8AG
 7A2D8,Tregaron,FALSE,FALSE,Tregaron,Treg,Tregaron Hospital,Ysbyty Tregaron,,SY25 6JP
 7A3C4,Singleton,TRUE,FALSE,Singleton,Sglt,Singleton Hospital,Ysbyty Singleton,,SA2  8QA
 7A3C7,Morriston,TRUE,FALSE,Morriston,Mor,Morriston Hospital,Ysbyty Treforys,,SA6  6NL
 7A3CJ,Neath Port Talbot,TRUE,FALSE,NPT,NPT,Neath Port Talbot Hospital,Ysbyty Castell Nedd Port Talbot,,SA12 7BX
-7A3FL,Tonna,FALSE,TRUE,Tonna,Tnna,Tonna Hospital,Ysbyty Tonna,,SA11 3LX
+7A3FL,Tonna,FALSE,TRUE,Tonna,Tonna,Tonna Hospital,Ysbyty Tonna,,SA11 3LX
 7A3EM,Gorseinon,FALSE,FALSE,Gorseinon,Gorse,Gorseinon Hospital,Ysbyty Gorseinon,,SA4 4UU
 7A3FJ,Cefn Coed,FALSE,TRUE,Cefn Coed,CfnCd,Cefn Coed Hospital,Ysbyty Cefn Coed,,SA2  0GH
 7A3FA,Glanrhyd,FALSE,TRUE,Glanrhyd,Glrhd,Glanrhyd Hospital,Ysbyty Glanrhyd,7A5,CF31 4LN
 7A4BV,UHW,TRUE,FALSE,UHW,UHW,University Hospital of Wales,Ysbyty Athrofaol Cymru,,CF14 4XW
 7A4C1,Llandough,TRUE,FALSE,Llandough,UHL,University Hospital Llandough,Ysbyty Llandochau Prifysgol,,CF64 2XX
-7A4CH,Barry,FALSE,FALSE,Barry,Brry,Barry Hospital,Ysbyty Cymunedol Y Barri,,CF62 8YH
+7A4CH,Barry,FALSE,FALSE,Barry,Barry,Barry Hospital,Ysbyty Cymunedol Y Barri,,CF62 8YH
 7A4BX,Rookwood,FALSE,FALSE,Rookwood,Rkwd,Rookwood Hospital,Ysbyty Rookwood,,CF5  2YN
 7A4FE,St David's,FALSE,FALSE,St David's,StD,St David's Hospital,Ysbyty Dewi Sant,,CF11 9XB
 7A4FF,Whitchurch,FALSE,TRUE,Whitchurch,Whit,Whitchurch Hospital,Ysbyty'r Eglwys Newydd,,CF14 7XB
@@ -55,6 +55,6 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,FullNameWelsh,OrgCodeOverride
 7A7BN,Llandrindod Wells,FALSE,FALSE,Llandrindod,LWWMH,Llandrindod Wells War Memorial Hospital,Ysbyty Coffa Rhyfel Llandrindod Wells,,LD1  5HF
 7A7BS,Victoria,FALSE,FALSE,Victoria,VicMH,Victoria Memorial Hospital,Ysbyty Coffa Victoria,,SY21 7DU
 7A7BT,Breconshire,FALSE,FALSE,Brecon,BrWMH,Breconshire War Memorial Hospital,Ysbyty Coffa Rhyfel Brycheiniog,,LD3  7NS
-7A7EJ,Ystradgynlais,FALSE,FALSE,Ystradgynlais,YgCH,Ystradgynlais Community Hospital,Ysbyty Cymunedol Ystradgynlais,,SA9  1AE
+7A7EJ,Ystradgynlais,FALSE,FALSE,Ystradgynlais,Ygnls,Ystradgynlais Community Hospital,Ysbyty Cymunedol Ystradgynlais,,SA9  1AE
 RQFH5,Velindre,FALSE,FALSE,Velindre,VCC,Velindre Cancer Centre,Canolfan Ganser Felindre,,CF14 2TL
 XXXXX,Other Site,FALSE,FALSE,Other,Other,Other Site,Safle Arall,,
