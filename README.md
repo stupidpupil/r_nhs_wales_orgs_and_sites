@@ -2,7 +2,18 @@
 
 ![R-CMD-check](https://github.com/stupidpupil/r_nhs_wales_orgs_and_sites/actions/workflows/check-release.yaml/badge.svg)
 
-This package is not intended as a replacement for the WRDS, but to provide consistent human-readable names and abbreviations for major secondary care sites and organisations in NHS Wales. It doesn't track site opening and closing and isn't expected to work for all sites with an assigned WRDS site code.
+This package is intended to provide a choice of consistent human-readable names and abbreviations for major secondary care sites and organisations in NHS Wales. 
+
+It is not intended as any kind of replacement for reference data services, like the [NHS Digital ODS API](https://digital.nhs.uk/services/organisation-data-service/guidance-for-developers/how-to-obtain-organisation-data-via-the-ods-api-suite) or those provided by WRDS.
+
+
+## Features and Antifeatures
+
+- Provides a choice of *Abbr* (Abbreviation), *ShortName*, *Name* and *FullName* fields
+- Covers roughly the 50 biggest hospitals in NHS Wales as of 2021
+- Does not cover all active sites in NHS Wales
+- Assigns the Princess of Wales and Glanrhyd Hospitals to Cwm Taf Morgannwg
+- Optionally collapses distinctions between certain 'sites' in the same geographical location (see [Site Aliases](#site-aliases))
 
 ## Example
 
@@ -47,9 +58,11 @@ print(an_example_tibble)
 
 *Abbr* deliberately omits "U" as a suffix for University Health Boards, to improve discrimination (on the basis of length and word-shape).
 
-*ShortName* aims to be 10 characters or shorter, but has no guarantees.
+*ShortName* is guaranteed to be 15 characters or shorter, and aims to be 10 characters or shorter for almost all sites.
 
 *Name* will not mention the site or organisation type (e.g. "Ysbyty", "NHS Trust"), but *FullName* will.
+
+None of these will ever start with "The".
 
 
 ## Site Aliases
@@ -63,8 +76,8 @@ The table below shows the effect of these different modes for the example site c
 | aliases  | Example SiteName         |
 |----------|--------------------------|
 | collapse | Glan Clwyd               |
-| expand   | Glan Clwyd (Ablett Unit) |
-| ignore   | NA                       |
+| expand   | Glan Clwyd (Ablett)      |
+| ignore   | Other Site               |
 
 
-The `aliases` argument only affects the *SiteName* and *SiteFullName* fields.
+The `aliases` argument only affects the *SiteName* and *SiteFullName* fields. The default is `collapse`.
