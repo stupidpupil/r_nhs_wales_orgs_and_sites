@@ -9,10 +9,8 @@ test_that("No organisation has a ShortName or Name that mentions 'Health Board'"
 
 test_that("No organisation has a FullName that doesn't mention either 'Health Board' or 'Trust", {
   orgs_other_than_unknown <- nhs_wales_organisations %>% filter(Code != 'XXX')
-  count_of_orgs <- orgs_other_than_unknown %>% nrow()
-
-  expect_equal(orgs_other_than_unknown %>% filter(FullName %>% 
-    str_detect('\\b(Health Board|Trust)\\b')) %>% nrow(), count_of_orgs)
+  expect_true(orgs_other_than_unknown %>% pull(FullName) %>% 
+    str_detect('\\b(Health Board|Trust)\\b') %>% all())
 })
 
 
