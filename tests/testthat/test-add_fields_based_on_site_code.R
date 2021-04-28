@@ -1,13 +1,14 @@
-test_that("7A4BV will produce Abbr, FullName and OrgCode as expected", {
+test_that("7A4BV will produce Abbr, FullName, FullNameWelsh and OrgCode as expected", {
 
   example <- tibble(
     SiteCode = c("7A4BV")
-  ) %>% add_fields_based_on_site_code(fields = c('SiteAbbr', 'SiteFullName', 'SiteOrgCode'))
+  ) %>% add_fields_based_on_site_code(fields = c('SiteAbbr', 'SiteFullName', 'SiteFullNameWelsh', 'SiteOrgCode'))
 
   expect_equal(example$SiteAbbr, 'UHW')
   expect_equal(example$SiteFullName, 'University Hospital of Wales')
+  expect_equal(example$SiteFullNameWelsh, 'Ysbyty Athrofaol Cymru')
   expect_equal(example$SiteOrgCode, '7A4')
-  expect_equal(length(names(example)), 4)
+  expect_equal(length(names(example)), 5)
 
 })
 

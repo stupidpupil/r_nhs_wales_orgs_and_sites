@@ -10,9 +10,10 @@ test_that("No site has a ShortName, Name or FullName that mentions 'The'", {
 })
 
 
-test_that("No site has a ShortName or Name that mentions 'Hospital'", {
+test_that("No site has a ShortName or Name or FullNameWelsh that mentions 'Hospital'", {
   expect_equal(nhs_wales_sites %>% filter(ShortName %>% str_detect('\\bHospital\\b')) %>% nrow(), 0)
   expect_equal(nhs_wales_sites %>% filter(Name %>% str_detect('\\bHospital\\b')) %>% nrow(), 0)
+  expect_equal(nhs_wales_sites %>% filter(FullNameWelsh %>% str_detect('\\bHospital\\b')) %>% nrow(), 0)
 })
 
 

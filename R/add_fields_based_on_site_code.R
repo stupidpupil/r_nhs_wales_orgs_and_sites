@@ -7,7 +7,7 @@ add_fields_based_on_site_code <- function(
   fields <- ifelse(str_detect(fields, "^Site"), fields, paste0('Site', fields))
 
   simple_fields = # Fields that don't need processing to produce
-    c("SiteShortName", "SiteName", "SiteFullName", "SiteAbbr", "SiteIsBig", "SiteOrgCode", "SitePostcode")
+    c("SiteShortName", "SiteName", "SiteFullName", "SiteFullNameWelsh", "SiteAbbr", "SiteIsBig", "SiteOrgCode", "SitePostcode")
 
   names(nhs_wales_sites) <- paste0("Site", names(nhs_wales_sites))
 
