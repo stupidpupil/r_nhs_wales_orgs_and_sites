@@ -9,7 +9,7 @@ It is not intended as any kind of replacement for reference data services, like 
 
 ## Features and Antifeatures
 
-- Provides a choice of *Abbr* (Abbreviation), *ShortName*, *Name* and *FullName* fields
+- Provides a choice of *Abbr* (Abbreviation), *ShortName*, *Name*, *FullName* and *FullNameWelsh* fields
 - Covers roughly the 50 biggest hospitals in NHS Wales as of 2021
 - Does not cover all active sites in NHS Wales
 - Assigns the Princess of Wales and Glanrhyd Hospitals to Cwm Taf Morgannwg
@@ -52,7 +52,7 @@ print(an_example_tibble)
 
 ```
 
-## Abbr, ShortName, Name, FullName
+## Abbr, ShortName, Name, FullName, FullNameWelsh
 
 *Abbr* is guaranteed to be 5 characters or shorter, and aims to be 3 characters or shorter for big sites and health boards. 
 
@@ -60,7 +60,7 @@ print(an_example_tibble)
 
 *ShortName* is guaranteed to be 15 characters or shorter, and aims to be 10 characters or shorter for almost all sites.
 
-*Name* will not mention the site or organisation type (e.g. "Ysbyty", "NHS Trust"), but *FullName* will.
+*Name* will not mention the site or organisation type (e.g. "Ysbyty", "NHS Trust"), but *FullName* and *FullNameWelsh* will.
 
 None of these will ever start with "The".
 
@@ -80,4 +80,4 @@ The table below shows the effect of these different modes for the example site c
 | ignore   | Other Site               |
 
 
-The `aliases` argument only affects the *SiteName* and *SiteFullName* fields. The default is `collapse`.
+The `aliases` argument only affects the *SiteName*, *SiteFullName* and *SiteFullNameWelsh* fields. The default is `collapse`.
