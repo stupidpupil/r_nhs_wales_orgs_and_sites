@@ -47,7 +47,7 @@ print(an_example_tibble)
 
 *Abbr* deliberately omits "U" as a suffix for University Health Boards, to improve discrimination (on the basis of length and word-shape).
 
-*ShortName* aims to be 10 characters or shorter, but has no guarantees.
+*ShortName* is guaranteed to be 15 characters or shorter, and aims to be 10 characters or shorter for almost all sites.
 
 *Name* will not mention the site or organisation type (e.g. "Ysbyty", "NHS Trust"), but *FullName* will.
 
