@@ -39,8 +39,8 @@ an_example_tibble <- an_example_tibble %>%
     fields = c("SiteAbbr", "SiteName", "SiteFullName", "SiteOrgCode")
   ) %>%
   add_fields_based_on_org_code(
-  	prefix = "AdmissionSite",
-  	fields = c("OrgName")
+    prefix = "AdmissionSite",
+    fields = c("OrgName")
   )
 
 print(an_example_tibble)
