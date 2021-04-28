@@ -6,7 +6,7 @@ Authors@R: c(
   person(given = 'Public Health Wales', role=c('cph'))
   )
 Description: Consistent human-readable names and descriptions for major secondary sites and organisations in NHS Wales, and helper functions to link these to site and organisation codes.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Depends: 
