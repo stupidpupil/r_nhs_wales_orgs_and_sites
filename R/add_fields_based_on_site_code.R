@@ -24,20 +24,10 @@ add_fields_based_on_site_code <- function(
     }
 
     nhs_wales_sites <- nhs_wales_sites %>% rbind(
-        nhs_wales_site_aliases %>% select(-c(AliasTo, AliasToName, AliasDescription))
-        )
-  }
-
-  if("SiteOrgCode" %in% fields){
-
-    nhs_wales_sites <- nhs_wales_sites %>% mutate(
-      SiteOrgCode = case_when(
-        !is.na(SiteOrgCodeOverride) ~ SiteOrgCodeOverride,
-        TRUE ~ str_sub(SiteCode, 1, 3)
-      )
+      nhs_wales_site_aliases %>% select(-c(AliasTo, AliasToName, AliasDescription))
     )
   }
-  
+
   s <- nhs_wales_sites %>% select(all_of(c('SiteCode', fields)))
   fallback <- s %>% filter(SiteCode == 'XXXXX') %>% mutate(SiteOrgCode = NA_character_)
 
