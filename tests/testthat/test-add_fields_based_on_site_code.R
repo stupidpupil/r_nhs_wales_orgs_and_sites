@@ -90,14 +90,15 @@ test_that("7A4FA will produce Abbr, FullName and OrgCode as expected (and as if 
 
 })
 
-test_that("7A4FA will produce Abbr, FullName (with a qualifier) and OrgCode as expected if prefix is set to expand", {
+test_that("7A4FA will produce Abbr, FullName and FullNameWelsh (with qualifiers), and OrgCode as expected if prefix is set to expand", {
   
   example <- tibble(
     SiteCode = c("7A4FA")
-  ) %>% add_fields_based_on_site_code(fields = c('SiteAbbr', 'SiteFullName', 'SiteOrgCode'), aliases = 'expand')
+  ) %>% add_fields_based_on_site_code(fields = c('SiteAbbr', 'SiteFullName', 'SiteFullNameWelsh', 'SiteOrgCode'), aliases = 'expand')
 
   expect_equal(example$SiteAbbr, 'UHL')
   expect_equal(example$SiteFullName, 'University Hospital Llandough (Hafan y Coed)')
+  expect_equal(example$SiteFullNameWelsh, 'Ysbyty Llandochau Prifysgol (Hafan-y-Coed)')
   expect_equal(example$SiteOrgCode, '7A4')
 
 })

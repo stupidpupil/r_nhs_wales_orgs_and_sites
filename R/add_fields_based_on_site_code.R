@@ -20,11 +20,12 @@ add_fields_based_on_site_code <- function(
       nhs_wales_site_aliases <- nhs_wales_site_aliases %>% mutate(
         SiteName = paste0(SiteName, " (", AliasDescription, ")"),
         SiteFullName = paste0(SiteFullName, " (", AliasDescription, ")"),
+        SiteFullNameWelsh = paste0(SiteFullNameWelsh, " (", AliasDescriptionWelsh, ")"),
       )
     }
 
     nhs_wales_sites <- nhs_wales_sites %>% rbind(
-      nhs_wales_site_aliases %>% select(-c(AliasTo, AliasToName, AliasDescription))
+      nhs_wales_site_aliases %>% select(-c(AliasTo, AliasToName, AliasDescription, AliasDescriptionWelsh))
     )
   }
 
