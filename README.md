@@ -54,16 +54,15 @@ print(an_example_tibble)
 
 ## Abbr, ShortName, Name, FullName, FullNameWelsh
 
-*Abbr* is guaranteed to be 5 characters or shorter, and aims to be 3 characters or shorter for big sites and health boards. 
+The following fields are available for both Organisations and Sites:
 
-*Abbr* deliberately omits "U" as a suffix for University Health Boards, to improve discrimination (on the basis of length and word-shape).
-
-*ShortName* is guaranteed to be 15 characters or shorter, and aims to be 10 characters or shorter for almost all sites.
-
-*Name* will not mention the site or organisation type (e.g. "Ysbyty", "NHS Trust"), but *FullName* and *FullNameWelsh* will.
-
-None of these will ever start with "The".
-
+|             Field | Example for `7A5B1`        | Details                                                                                                                                                                                                                                                                                  |
+|------------------:|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|          **Abbr** | Glam                       | Guaranteed to be 5 characters or shorter. <br><br>Aims to be 3 characters or shorter, particularly for large sites<br><br>Tries to follow local conventions, but will deviate from these where necessary<br>(for example, to distinguish the Royal Glamorgan and Royal Gwent Hospitals). |
+|     **ShortName** | Royal Glam                 | Guaranteed to 15 characters or shorter. <br><br>Aims to be 10 characters or shorter.                                                                                                                                                                                                     |
+|          **Name** | Royal Glamorgan            | Does not include the site or organisation type (e.g. "Hospital" or "Health Board").<br><br>Does not start with "The".                                                                                                                                                                    |
+|      **FullName** | Royal Glamorgan Hospital   | Usually what's on the sign outside of the hospital.<br><br>Does not start with "The".                                                                                                                                                                                                    |
+| **FullNameWelsh** | Ysbyty Brenhinol Morgannwg | Usually what's on the sign outside of the hospital.                                                                                                                                                                                                                                      |
 
 ## Site Aliases
 Some hospital sites are split into multiple 'locations' with different location codes. Some examples would be the Dental Hospital on the UHW site, and the mental health Ablett Unit on the Glan Clwyd site.
