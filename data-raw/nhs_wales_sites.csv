@@ -12,6 +12,7 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,FullNameWelsh,OrgCodeOverride
 7A1AV,Llandudno,FALSE,FALSE,Llandudno,LLGH,Llandudno General Hospital,Ysbyty Cyffredinol Llandudno,,LL30 1LB
 7A1GE,Bryn y Neuadd,FALSE,TRUE,Bryn y Neuadd,BrYNd,Bryn y Neuadd Hospital,Ysbyty Bryn y Neuadd,,LL33 0HH
 7A1AU,Gwynedd,TRUE,FALSE,Gwynedd,YG,Ysbyty Gwynedd,,,LL57 2PW
+7A1DG,Eryri,FALSE,FALSE,Eryri,Eryri,Ysbyty Eryri,,,LL55 2YE
 7A1DC,Penrhos Stanley,FALSE,FALSE,Penrhos,YPS,Ysbyty Penrhos Stanley,,,LL65 2QA
 7A1AZ,Ffestiniog,FALSE,FALSE,Ffestiniog,Ffest,Ffestiniog Memorial Hospital,Ysbyty Coffa Ffestiniog,,LL41 3DW
 7A1CA,Alltwen,FALSE,FALSE,Alltwen,YAllt,Ysbyty Alltwen,,,LL49 9RN
