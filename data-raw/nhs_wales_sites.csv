@@ -22,6 +22,7 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,FullNameWelsh,OrgCodeOverride
 7A2BL,Withybush,TRUE,FALSE,Withybush,WGH,Withybush General Hospital,Ysbyty Cyffredinol Llwynhelyg,,SA61 2PZ
 7A2EF,South Pembroke,FALSE,FALSE,South Pembs.,SPH,South Pembrokeshire Hospital,Ysbyty De Sir Benfro,,SA72 6SY
 7A2JA,Tenby Cottage,FALSE,FALSE,Tenby,Tenb,Tenby Cottage Hospital,Ysbyty Bwthyn Dinbych y Pysgod,,SA70 8AG
+7A2F4,Hafan Derwen,FALSE,TRUE,Derwen,HfDwn,Hafan Derwen,,,SA31 3BB
 7A2AG,Glangwili,TRUE,FALSE,Glangwili,GGH,Glangwili General Hospital,Ysbyty Cyffredinol Glangwili,,SA31 2AF
 7A2AH,Llandovery,FALSE,FALSE,Llandovery,LLH,Llandovery Hospital,Ysbyty Llanymddyfri,,SA20 0LA
 7A2E1,Amman Valley,FALSE,FALSE,Amman Val.,AmVl,Amman Valley Hospital,Ysbyty Dyffryn Aman,,SA18 2BQ
