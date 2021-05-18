@@ -10,7 +10,7 @@ It is not intended as any kind of replacement for reference data services, like 
 ## Features and Antifeatures
 
 - Provides a choice of *Abbr* (Abbreviation), *ShortName*, *Name*, *FullName* and *FullNameWelsh* fields
-- Covers roughly the 50 biggest hospitals in NHS Wales as of 2021
+- Covers roughly the 60 biggest hospitals in NHS Wales as of 2021
 - Does not cover all active sites in NHS Wales
 - Assigns the Princess of Wales and Glanrhyd Hospitals to Cwm Taf Morgannwg
 - Optionally collapses distinctions between certain 'sites' in the same geographical location (see [Site Aliases](#site-aliases))
