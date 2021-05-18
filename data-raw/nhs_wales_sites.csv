@@ -34,7 +34,7 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,FullNameWelsh,OrgCodeOverride
 7A3FJ,Cefn Coed,FALSE,TRUE,Cefn Coed,CfnCd,Cefn Coed Hospital,Ysbyty Cefn Coed,,SA2  0GH
 7A3C4,Singleton,TRUE,FALSE,Singleton,Sglt,Singleton Hospital,Ysbyty Singleton,,SA2  8QA
 7A3FL,Tonna,FALSE,TRUE,Tonna,Tonna,Tonna Hospital,Ysbyty Tonna,,SA11 3LX
-7A3CJ,Neath Port Talbot,TRUE,FALSE,NPT,NPT,Neath Port Talbot Hospital,Ysbyty Castell Nedd Port Talbot,,SA12 7BX
+7A3CJ,Neath Port Talbot,TRUE,FALSE,NPT,NPT,Neath Port Talbot Hospital,Ysbyty Castell-nedd Port Talbot,,SA12 7BX
 7A3FA,Glanrhyd,FALSE,TRUE,Glanrhyd,Glrhd,Glanrhyd Hospital,Ysbyty Glanrhyd,7A5,CF31 4LN
 7A3B7,Princess of Wales,TRUE,FALSE,PoW,PoW,Princess of Wales Hospital,Ysbyty Tywysoges Cymru,7A5,CF31 1RQ
 7A5B1,Royal Glamorgan,TRUE,FALSE,Royal Glam,Glam,Royal Glamorgan Hospital,Ysbyty Brenhinol Morgannwg,,CF72 8XR
