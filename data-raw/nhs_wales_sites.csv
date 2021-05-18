@@ -57,7 +57,7 @@ RQFH5,Velindre,FALSE,FALSE,Velindre,VCC,Velindre Cancer Centre,Canolfan Ganser F
 7A6AS,County,FALSE,FALSE,County,Cnty,County Hospital,Ysbyty'r Sir,,NP4  5YA
 7A6AV,Ystrad Fawr,TRUE,FALSE,Ystrad Fawr,YYF,Ysbyty Ystrad Fawr,,,CF82 7GP
 7A6AU,Aneurin Bevan,FALSE,FALSE,Aneurin Bevan,YAB,Ysbyty Aneurin Bevan,,,NP23 8XE
-7A6FR,Tri Chwm,FALSE,FALSE,Tri Chwm,YTC,Ysbyty'r Tri Chwm,,,NP23 6HA
+7A6FR,Tri Chwm,FALSE,TRUE,Tri Chwm,YTC,Ysbyty'r Tri Chwm,,,NP23 6HA
 7A6AM,Nevill Hall,TRUE,FALSE,Nevill Hall,NHH,Nevill Hall Hospital,Ysbyty Neuadd Nevill,,NP7  7EG
 7A6BJ,Chepstow,FALSE,FALSE,Chepstow,Chep,Chepstow Community Hospital,Ysbyty Cymunedol Cas-gwent,,NP16 5YX
 7A7EJ,Ystradgynlais,FALSE,FALSE,Ystradgynlais,Ygnls,Ystradgynlais Community Hospital,Ysbyty Cymunedol Ystradgynlais,,SA9  1AE
