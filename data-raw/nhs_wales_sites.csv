@@ -45,6 +45,7 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,FullNameWelsh,OrgCodeOverride
 7A4FE,St David's,FALSE,FALSE,St David's,StD,St David's Hospital,Ysbyty Dewi Sant,,CF11 9XB
 7A4BX,Rookwood,FALSE,FALSE,Rookwood,Rkwd,Rookwood Hospital,Ysbyty Rookwood,,CF5  2YN
 7A4FF,Whitchurch,FALSE,TRUE,Whitchurch,Whit,Whitchurch Hospital,Ysbyty'r Eglwys Newydd,,CF14 7XB
+7A4BW,CRI,FALSE,FALSE,CRI,CRI,Cardiff Royal Infirmary,Ysbyty Brenhinol Caerdydd,,CF24 0SZ
 7A4BV,UHW,TRUE,FALSE,UHW,UHW,University Hospital of Wales,Ysbyty Athrofaol Cymru,,CF14 4XW
 RQFH5,Velindre,FALSE,FALSE,Velindre,VCC,Velindre Cancer Centre,Canolfan Ganser Felindre,,CF14 2TL
 7A6AR,Royal Gwent,TRUE,FALSE,Royal Gwent,Gwent,Royal Gwent Hospital,Ysbyty Brenhinol Gwent,,NP20 2UB
