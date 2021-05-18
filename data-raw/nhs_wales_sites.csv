@@ -6,8 +6,9 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,FullNameWelsh,OrgCodeOverride
 7A1AF,Ruthin,FALSE,FALSE,Ruthin,Ruthn,Ruthin Community Hospital,Ysbyty Cymunedol Rhuthun,,LL15 1PS
 7A1AB,Holywell,FALSE,FALSE,Holywell,HlyWl,Holywell Community Hospital,Ysbyty Cymuned Treffynnon,,CH8  7TZ
 7A1A9,Denbigh,FALSE,FALSE,Denbigh,Denb,Denbigh Community Hospital,Ysbyty Cymunedol Dinbych,,LL16 3ES
+7A1A5,Royal Alexandra,FALSE,FALSE,Alexandra,Alxdr,Royal Alexandra Hospital,Ysbyty Brenhinol Alexandra,,LL18 3AS
 7A1A1,Glan Clwyd,TRUE,FALSE,Glan Clwyd,YGC,Ysbyty Glan Clwyd,,,LL18 5UJ
-7A1A2,Abergele,FALSE,FALSE,Abergele,Abgle,AbergeleHospital,Ysbyty Abergele,,LL22 8DP
+7A1A2,Abergele,FALSE,FALSE,Abergele,Abgle,Abergele Hospital,Ysbyty Abergele,,LL22 8DP
 7A1A8,Colwyn Bay,FALSE,FALSE,Colwyn Bay,Colw,Colwyn Bay Community Hospital,Ysbyty Cymuned Bae Colwyn,,LL29 8AY
 7A1AV,Llandudno,FALSE,FALSE,Llandudno,LLGH,Llandudno General Hospital,Ysbyty Cyffredinol Llandudno,,LL30 1LB
 7A1GE,Bryn y Neuadd,FALSE,TRUE,Bryn y Neuadd,BrYNd,Bryn y Neuadd Hospital,Ysbyty Bryn y Neuadd,,LL33 0HH
