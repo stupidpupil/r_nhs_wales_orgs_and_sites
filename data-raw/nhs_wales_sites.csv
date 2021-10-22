@@ -19,6 +19,7 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,FullNameWelsh,OrgCodeOverride
 7A1AX,Bryn Beryl,FALSE,FALSE,Bryn Beryl,BrBrl,Bryn Beryl Hospital,Ysbyty Bryn Beryl,,LL53 6TT
 7A1CA,Alltwen,FALSE,FALSE,Alltwen,YAllt,Ysbyty Alltwen,,,LL49 9RN
 7A1AY,Dolgellau and Barmouth,FALSE,FALSE,Dolgellau,Dolg,Dolgellau and Barmouth Hospital,Ysbyty Dolgellau a Bermo,,LL40 1NT
+7A1B2,Tywyn,FALSE,FALSE,Tywyn,Tywyn,Tywyn Hospital,Ysbyty Tywyn,,LL36 9HH
 7A2AJ,Bronglais,TRUE,FALSE,Bronglais,BGH,Bronglais General Hospital,Ysbyty Bronglais,,SY23 1ER
 7A2D8,Tregaron,FALSE,FALSE,Tregaron,Treg,Tregaron Hospital,Ysbyty Tregaron,,SY25 6JP
 7A2BL,Withybush,TRUE,FALSE,Withybush,WGH,Withybush General Hospital,Ysbyty Cyffredinol Llwynhelyg,,SA61 2PZ
