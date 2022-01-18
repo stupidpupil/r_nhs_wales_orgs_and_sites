@@ -7,6 +7,11 @@ test_that("No site has a ShortName longer than 15 characters", {
 })
 
 
+test_that("No site has a OrgCode longer or shorter than 3 characters", {
+  expect_equal(nhs_wales_sites %>% filter(str_length(OrgCode) != 3) %>% nrow(), 0)
+})
+
+
 test_that("No site has a ShortName, Name or FullName that mentions 'The'", {
   expect_equal(nhs_wales_sites %>% filter(ShortName %>% str_detect('\\bThe\\b')) %>% nrow(), 0)
   expect_equal(nhs_wales_sites %>% filter(Name %>% str_detect('\\bThe\\b')) %>% nrow(), 0)
