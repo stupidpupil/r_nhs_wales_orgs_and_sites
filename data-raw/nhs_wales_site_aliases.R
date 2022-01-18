@@ -1,3 +1,7 @@
+library(magrittr)
+library(dplyr)
+library(stringr)
+
 nhs_wales_site_aliases <- readr::read_csv("data-raw/nhs_wales_site_aliases.csv") %>%
   mutate(
     AliasDescriptionWelsh = case_when(

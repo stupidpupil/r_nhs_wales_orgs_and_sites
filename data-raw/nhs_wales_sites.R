@@ -1,3 +1,7 @@
+library(magrittr)
+library(dplyr)
+library(stringr)
+
 nhs_wales_sites <- readr::read_csv("data-raw/nhs_wales_sites.csv") %>%
   mutate(
     OrgCode = case_when(
