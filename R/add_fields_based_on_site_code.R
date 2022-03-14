@@ -34,11 +34,17 @@ add_fields_based_on_site_code <- function(
 
   names(s) <- paste0(prefix, names(s))
   names(fallback) <- paste0(prefix, names(fallback))
+
+  fallback_as_list <- list()
+
+  for (n in names(fallback)) {
+    fallback_as_list[n] <- fallback[n] %>% first()
+  }
     
   ret <- in_data %>% 
     select(-any_of(paste0(prefix, fields))) %>% 
     left_join(s, by=paste0(prefix, "SiteCode")) %>% 
-    replace_na(fallback)
+    replace_na(fallback_as_list)
 
   if("SiteOrgCode" %in% fields){
 

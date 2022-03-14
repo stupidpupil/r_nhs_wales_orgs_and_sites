@@ -18,8 +18,14 @@ add_fields_based_on_org_code <- function(
   names(s) <- paste0(prefix, names(s))
   names(fallback) <- paste0(prefix, names(fallback))
 
+  fallback_as_list <- list()
+
+  for (n in names(fallback)) {
+    fallback_as_list[n] <- fallback[n] %>% first()
+  }
+
   in_data %>% 
     select(-any_of(paste0(prefix, fields))) %>% 
     left_join(s, by=paste0(prefix, "OrgCode")) %>%
-    replace_na(fallback)
+    replace_na(fallback_as_list)
 }
