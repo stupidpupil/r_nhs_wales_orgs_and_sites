@@ -1,12 +1,12 @@
-Code,Name,ShortName,Abbr,FullName,FullNameWelsh,IsHealthBoard
-7A1,Betsi Cadwaladr,Betsi Cadwal.,BC,Betsi Cadwaladr University Health Board,Bwrdd Iechyd Prifysgol Betsi Cadwaladr,TRUE
-7A2,Hywel Dda,Hywel Dda,HD,Hywel Dda University Health Board,Bwrdd Iechyd Prifysgol Hywel Dda,TRUE
-7A3,Swansea Bay,Swansea Bay,SB,Swansea Bay University Health Board,Bwrdd Iechyd Prifysgol Bae Abertawe,TRUE
-7A4,Cardiff & Vale,Cardiff & Vale,CV,Cardiff & Vale University Health Board,Bwrdd Iechyd Prifysgol Caerdydd a'r Fro,TRUE
-7A5,Cwm Taf Morgannwg,Cwm Taf Morg.,CTM,Cwm Taf Morgannwg University Health Board,Bwrdd Iechyd Prifysgol Cwm Taf Morgannwg,TRUE
-7A6,Aneurin Bevan,Aneurin Bevan,AB,Aneurin Bevan University Health Board,Bwrdd Iechyd Prifysgol Aneurin Bevan,TRUE
-7A7,Powys,Powys,Pt,Powys teaching Health Board,Bwrdd Iechyd Addysgu Powys,TRUE
-RQF,Velindre,Velindre,Vel,Velindre University NHS Trust,Ymddiriedolaeth GIG Prifysgol Felindre,FALSE
-RYT,Public Health Wales,Public Health,PHW,Public Health Wales NHS Trust,Ymddiriedolaeth GIG Iechyd Cyhoeddus Cymru,FALSE
-RT4,Welsh Ambulance Service,Welsh Ambulance,WAST,Welsh Ambulance Services NHS Trust,Ymddiriedolaeth GIG Gwasanaethau Ambiwlans Cymru,FALSE
+Code,Name,ShortName,Abbr,FullName,FullNameWelsh,IsHealthBoard,Wikidata
+7A1,Betsi Cadwaladr,Betsi Cadwal.,BC,Betsi Cadwaladr University Health Board,Bwrdd Iechyd Prifysgol Betsi Cadwaladr,TRUE,Q4898241
+7A2,Hywel Dda,Hywel Dda,HD,Hywel Dda University Health Board,Bwrdd Iechyd Prifysgol Hywel Dda,TRUE,Q2756337
+7A3,Swansea Bay,Swansea Bay,SB,Swansea Bay University Health Board,Bwrdd Iechyd Prifysgol Bae Abertawe,TRUE,Q4667178
+7A4,Cardiff & Vale,Cardiff & Vale,CV,Cardiff & Vale University Health Board,Bwrdd Iechyd Prifysgol Caerdydd a'r Fro,TRUE,Q5038490
+7A5,Cwm Taf Morgannwg,Cwm Taf Morg.,CTM,Cwm Taf Morgannwg University Health Board,Bwrdd Iechyd Prifysgol Cwm Taf Morgannwg,TRUE,Q5197211
+7A6,Aneurin Bevan,Aneurin Bevan,AB,Aneurin Bevan University Health Board,Bwrdd Iechyd Prifysgol Aneurin Bevan,TRUE,Q4761763
+7A7,Powys,Powys,Pt,Powys teaching Health Board,Bwrdd Iechyd Addysgu Powys,TRUE,Q18343995
+RQF,Velindre,Velindre,Vel,Velindre University NHS Trust,Ymddiriedolaeth GIG Prifysgol Felindre,FALSE,Q18358583
+RYT,Public Health Wales,Public Health,PHW,Public Health Wales NHS Trust,Ymddiriedolaeth GIG Iechyd Cyhoeddus Cymru,FALSE,Q17018314
+RT4,Welsh Ambulance Service,Welsh Ambulance,WAST,Welsh Ambulance Services NHS Trust,Ymddiriedolaeth GIG Gwasanaethau Ambiwlans Cymru,FALSE,Q7981848
 XXX,Other Organisation,Other Org,Other,Other Organisation,Sefydliad Eraill,FALSE
