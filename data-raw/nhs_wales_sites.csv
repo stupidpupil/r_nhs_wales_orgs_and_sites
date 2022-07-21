@@ -22,6 +22,7 @@ Code,Name,IsBig,IsMHLDOnly,ShortName,Abbr,FullName,FullNameWelsh,OrgCodeOverride
 7A1B2,Tywyn,FALSE,FALSE,Tywyn,Tywyn,Tywyn Hospital,Ysbyty Tywyn,,LL36 9HH,Q87970486
 7A2AJ,Bronglais,TRUE,FALSE,Bronglais,BGH,Bronglais General Hospital,Ysbyty Bronglais,,SY23 1ER,Q22338221
 7A2D8,Tregaron,FALSE,FALSE,Tregaron,Treg,Tregaron Hospital,Ysbyty Tregaron,,SY25 6JP,Q65088801
+7A27AK,Cardigan and District,FALSE,FALSE,Cardigan,CdgnH,Cardigan and District Community Hospital,Aberteifi a'r Cylch Ysbyty Cymunedol,,SA43 1DP,Q65088803
 7A2BL,Withybush,TRUE,FALSE,Withybush,WGH,Withybush General Hospital,Ysbyty Cyffredinol Llwynhelyg,,SA61 2PZ,Q8028300
 7A2EF,South Pembroke,FALSE,FALSE,South Pembs.,SPH,South Pembrokeshire Hospital,Ysbyty De Sir Benfro,,SA72 6SY,Q19604556
 7A2JA,Tenby Cottage,FALSE,FALSE,Tenby,Tenb,Tenby Cottage Hospital,Ysbyty Bwthyn Dinbych y Pysgod,,SA70 8AG,Q65078774
