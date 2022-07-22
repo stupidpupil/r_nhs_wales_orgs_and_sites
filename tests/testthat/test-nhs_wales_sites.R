@@ -1,3 +1,8 @@
+test_that("No site has a Code longer than 5 characters", {
+  expect_equal(nhs_wales_sites %>% filter(str_length(Abbr) > 5) %>% nrow(), 0)
+})
+
+
 test_that("No site has a Abbr longer than 5 characters", {
   expect_equal(nhs_wales_sites %>% filter(str_length(Abbr) > 5) %>% nrow(), 0)
 })
